@@ -7,6 +7,7 @@ Cookiecutter template for a Python package. See https://github.com/audreyr/cooki
 * Free software: BSD license
 * Pytest_ runner: Supports `unittest`, `pytest`, `nose` style tests and more
 * Travis-CI_: Ready for Travis Continuous integration testing
+* Coveralls_: Ready for Coveralls coverage reports
 * Tox_ testing: Setup to easily test for python 2.6, 2.7, 3.3 and PyPy_
 * Sphinx_ docs: Documentation raedy for generation with, for example, ReadTheDocs_
 * Wheel_ support: Use the newest python package distribution standard from the get go
@@ -23,6 +24,7 @@ Then:
 * Create a repo and put it there.
 * Add the repo to your Travis CI account.
 * Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
+* Add the repo to your coveralls account
 * Run `tox` to make sure all tests pass.
 * Release your package the standard Python way.
 
@@ -54,6 +56,7 @@ make my own packaging experience better.
 
 
 .. _Travis-CI: http://travis-ci.org/
+.. _Coveralls: https://coveralls.io/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.org/
