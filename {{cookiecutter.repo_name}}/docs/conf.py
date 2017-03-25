@@ -252,3 +252,8 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# Option for linkcheck
+# Ignore github fork linkcheck because it will always be 404 for 
+# unauthenticated users
+linkcheck_ignore = ['https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/fork']
